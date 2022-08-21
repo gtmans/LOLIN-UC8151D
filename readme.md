@@ -1,4 +1,3 @@
-/*
 how2 make graphicsfile for LOLIN 8151D 121x104 on Windows PC
 
 First create 2 bmp images 121x104 pixels black (use Photoshop or MS Paint, You can use paint to save a picture as bmp 1 color)
@@ -25,4 +24,6 @@ line 30 over "gImage_black"
 -copy all from the outputfile to the second half of image.h part (over existing "const unsigned char gImage_red[2756] upto the end
 -copy the name of the "const unsigned char" and paste it in "test_2_13inch_212x104_TRI-COLOR" on 
 line 30 over "gImage_red"
-*/
+
+[foto](https://github.com/gtmans/LOLIN-UC8151D/blob/main/LOLIN-setup.png)
+[photo](https://github.com/gtmans/LOLIN-UC8151D/blob/main/howto_LOLINUC8151D_image.png)
