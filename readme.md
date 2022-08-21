@@ -11,6 +11,8 @@ use sample LOLIN EPD sketch (file/examples in Arduino EPD) "test_2_13inch_212x10
 - select reverse color and mirror up down
 - save file
 
+![how2](https://github.com/gtmans/LOLIN-UC8151D/blob/main/howto_LOLINUC8151D_image.png)
+
 -copy all from the outputfile to the first half of image.h part (over existing "const unsigned char gImage_black[2756] upto ,}; stop end before the second const unsigned char gImage_red[2756] 
 -remove the first 6 bytes or put them on the second line and // them out
 -reduce the length of the array in the first line with 6: [2762-6] or [2756]
@@ -25,5 +27,5 @@ line 30 over "gImage_black"
 -copy the name of the "const unsigned char" and paste it in "test_2_13inch_212x104_TRI-COLOR" on 
 line 30 over "gImage_red"
 
-[foto](https://github.com/gtmans/LOLIN-UC8151D/blob/main/LOLIN-setup.png)
-[photo](https://github.com/gtmans/LOLIN-UC8151D/blob/main/howto_LOLINUC8151D_image.png)
+![LOLIN-setup](https://github.com/gtmans/LOLIN-UC8151D/blob/main/LOLIN-setup.png)
+
