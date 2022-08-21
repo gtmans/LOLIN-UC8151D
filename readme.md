@@ -24,11 +24,11 @@ line 30 over "gImage_black"
 
 ![testprogram](https://github.com/gtmans/LOLIN-UC8151D/blob/main/testprogram.png)
 
--convert the second (red) image the same way **)
--remove the first 6 bytes or put them on the second line and // them out
--reduce the length of the array in the first line with 6: [2762-6] or [2756]
--copy all from the outputfile to the second half of image.h part (over existing "const unsigned char gImage_red[2756] upto the end
--copy the name of the "const unsigned char" and paste it in "test_2_13inch_212x104_TRI-COLOR" on 
+- convert the second (red) image the same way **)
+- remove the first 6 bytes or put them on the second line and // them out
+- reduce the length of the array in the first line with 6: [2762-6] or [2756]
+- copy all from the outputfile to the second half of image.h part (over existing "const unsigned char gImage_red[2756] upto the end
+- copy the name of the "const unsigned char" and paste it in "test_2_13inch_212x104_TRI-COLOR" on 
 line 30 over "gImage_red"
 
 **) easier is to copy all lines exept the first line and paste them at line 178 till the end. Then you don't have to change the length or name gImage_red
